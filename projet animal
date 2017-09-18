@@ -1,0 +1,56 @@
+package javaapplication35;
+
+
+public class javaapplication35 {
+
+    
+    public static void main(String[] args) {
+        
+        Animal test = new Animal();
+        test.nom = "tigre";
+        test.couleur = "orange";
+        test.caractere = "??";
+        test.age = 5;
+    
+    }
+    
+
+    public static class Animal {
+    
+        private String nom, couleur, caractere;
+        private int age;
+        boolean crier = true;
+
+        public int getAge() {
+            return age;
+        }
+
+        public void setAge(int refAge) {
+            this.age = refAge;
+        }
+
+        public String getCouleur() {
+            return couleur;
+        }
+
+        public void setCouleur(String refCouleur) {
+            this.couleur = refCouleur;
+        }
+
+        public String getNom() {
+            return nom;
+        }
+
+        public void setNom(String refNom) {
+            this.nom = refNom;
+        }
+        
+        public void crier() {
+            if(this.crier = true) 
+            System.out.println("je crie");
+        }
+
+    }
+}
+  
+
